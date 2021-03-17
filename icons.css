@@ -1,0 +1,64 @@
+.battery {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  color: #f5f5f5;
+}
+
+.cellular {
+  position: absolute;
+  right: 30px;
+  top: 10px;
+  color: #f5f5f5;
+}
+
+.wifi {
+  position: absolute;
+  right: 50px;
+  top: 10px;
+  color: #f5f5f5;
+}
+
+.bluetooth {
+  position: absolute;
+  right: 75px;
+  top: 10px;
+  color: #f5f5f5;
+}
+
+.fast-rewind {
+  position: absolute;
+  left: 75px;
+  top: 82.5%;
+  transform: scale(2.5);
+  color: #f5f5f5;
+}
+
+.fast-forward {
+  position: absolute;
+  left: 250px;
+  top: 82.5%;
+  transform: scale(2.5);
+  color: #f5f5f5;
+}
+
+.share {
+  position: absolute;
+  left: 26px;
+  top: 12.5%;
+  color: #f5f5f5;
+}
+
+.download {
+  position: absolute;
+  right: 40px;
+  top: 12.5%;
+  color: #f5f5f5;
+}
+
+.visible-bluetooth {
+  position: absolute;
+  transform: scale(0.7);
+  color: gray;
+  bottom: 5px;
+}

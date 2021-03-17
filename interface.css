@@ -1,0 +1,161 @@
+#Phone-outline {
+  position: relative;
+  margin: auto;
+  border-style: solid;
+  border-color: black;
+  border-radius: 50px;
+  border-width: 10px;
+  box-shadow: 1px 1px 5px 5px lightgrey;
+  background-color: #a40606;
+  background: linear-gradient(315deg, #d98324 0%, #a40606 74%);
+  width: 360px;
+  height: 640px;
+  overflow: hidden;
+}
+
+#notification_bar {
+  position: absolute;
+  background-color: gray;
+  opacity: 0;
+  height: 40px;
+  width: 360px;
+  border-radius: 5px;
+}
+
+#gesture_bar {
+  position: absolute;
+  width: 75px;
+  height: 5px;
+  bottom: 10px;
+  left: 40%;
+  border-radius: 5px;
+  background-color: lightgrey;
+  opacity: 0.5;
+}
+
+#Album_Cover {
+  position: absolute;
+  height: 150px;
+  top: 30%;
+  left: 27%;
+  border-radius: 10%;
+  border-style: solid;
+  border-color: #890606;
+  box-shadow: 0px 0px 10px 10px #a40606;
+}
+
+#Song_Title {
+  position: absolute;
+  top: 60%;
+  left: 34%;
+  color: black;
+  font-family: Ubuntu, "Helvetica Nueue";
+  font-weight: bolder;
+  text-shadow: 1px 1px 0px #d98324;
+}
+
+#Pausebarl {
+  position: absolute;
+  background-color: #f5f5f5;
+  top: 80%;
+  left: 45%;
+  border-radius: 25px;
+  height: 50px;
+  width: 10px;
+  border-style: solid;
+  border-color: #d98324;
+  box-shadow: 1px 1px 10px #d98324;
+}
+
+#Pausebarr {
+  position: absolute;
+  background-color: #f5f5f5;
+  top: 80%;
+  right: 45%;
+  border-radius: 25px;
+  height: 50px;
+  width: 10px;
+  border-style: solid;
+  border-color: #d98324;
+  box-shadow: 1px 1px 10px #d98324;
+}
+
+#Volumeb {
+  position: absolute;
+  background-color: #f5f5f5;
+  height: 130px;
+  width: 25px;
+  border-radius: 15px;
+  opacity: 0.6;
+  top: 30%;
+  left: 2%;
+}
+
+#Volumef {
+  position: absolute;
+  background-color: #f5f5f5;
+  height: 98px;
+  width: 25px;
+  border-radius: 15px;
+  opacity: 1;
+  top: 35%;
+  left: 2%;
+}
+
+#seekbar {
+  position: absolute;
+  width: 280px;
+  height: 5px;
+  bottom: 25%;
+  left: 11.2%;
+  border-style: solid;
+  border-color: #d98324;
+  border-radius: 15px;
+  background-color: #f5f5f5;
+}
+
+#Circular_thingy {
+  position: absolute;
+  top: -10px;
+  right: 150px;
+  width: 20px;
+  height: 20px;
+  background-color: #f5f5f5;
+  border-radius: 50%;
+  border-style: solid;
+  border-color: #d98324;
+}
+
+.time {
+  position: absolute;
+  top: 14px;
+  left: 20px;
+  transform: scale(1.5);
+  color: #f5f5f5;
+  font-family: Ubuntu, "Helvetica Neue";
+}
+
+.more_horiz {
+  position: absolute;
+  transform: scale(0.7);
+  color: gray;
+}
+
+.more_verti {
+  position: absolute;
+  right: -18px;
+  top: 12.5%;
+  color: #f5f5f5;
+}
+
+.play_start {
+  position: absolute;
+  top: 20px;
+}
+
+.play_end {
+  position: absolute;
+  top: 20px;
+  right: 0px;
+  text-shadow: 1px 1px 1px#540606;
+}
